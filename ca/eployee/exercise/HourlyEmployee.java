@@ -15,8 +15,7 @@ import java.time.LocalDate;
 public class HourlyEmployee extends Employee{
 	private double payRate;
 	private double hoursWorking;
-	private double totalIncome;
-
+	
 	public HourlyEmployee(String firstName, String lastName, String email, LocalDate sDate, String phoneNumbe, double payRate, double hoursWorking) {
 		super(firstName, lastName, email, sDate, phoneNumbe);
 		setPayRate(payRate);

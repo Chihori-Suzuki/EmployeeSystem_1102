@@ -13,7 +13,6 @@ import java.time.LocalDate;
 public class SalesEmployee extends Employee {
 	private double commitionRate;
 	private double totalSales;
-	private double totalIncome;
 	
 
 	public SalesEmployee(String firstName, String lastName, String email, LocalDate startDate, String phoneNumbe, double commitionRate, double totalSales) {
